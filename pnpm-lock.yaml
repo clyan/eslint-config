@@ -25,9 +25,9 @@ importers:
 
   packages/eslint-config:
     specifiers:
-      '@clyan/eslint-config-basic': workspace:*
+      '@clyan/eslint-config-react': workspace:*
     dependencies:
-      '@clyan/eslint-config-basic': link:../eslint-config-basic
+      '@clyan/eslint-config-react': link:../eslint-config-react
 
   packages/eslint-config-basic:
     specifiers:

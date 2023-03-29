@@ -13,6 +13,6 @@
   ],
   "scripts": {},
   "dependencies": {
-    "@clyan/eslint-config-basic": "workspace:*"
+    "@clyan/eslint-config-react": "workspace:*"
   }
 }
