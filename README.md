@@ -3,6 +3,7 @@
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone **without** Prettier)
+- Designed to work with TypeScript, React out-of-box
 - Lint also for json, yaml, markdown
 - Sorted imports, dangling commas
 - Reasonable defaults, best practices, only one-line of config
