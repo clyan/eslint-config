@@ -10,6 +10,6 @@
   "main": "index.js",
   "scripts": {},
   "dependencies": {
-    "@clyan/eslint-config-basic": "workspace:^0.0.1"
+    "@clyan/eslint-config-basic": "workspace:*"
   }
 }

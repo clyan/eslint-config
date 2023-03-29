@@ -16,7 +16,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@clyan/eslint-config": "workspace:^0.0.1"
+    "@clyan/eslint-config": "workspace:*"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",

@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@clyan/eslint-config-basic']
+  extends: ['@clyan/eslint-config-basic'],
 }
