@@ -1,0 +1,26 @@
+{
+  "name": "@clyan/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "ts eslint configuration",
+  "author": "Clyan",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config",
+    "eslint-config-ts"
+  ],
+  "main": "index.js",
+  "scripts": {},
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@clyan/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "typescript": "^5.0.2"
+  }
+}
