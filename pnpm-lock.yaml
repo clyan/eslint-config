@@ -8,6 +8,7 @@ importers:
       '@commitlint/cli': ^16.2.1
       '@commitlint/config-conventional': ^16.2.1
       eslint: ^8.36.0
+      git-cz: ^4.9.0
       husky: ^8.0.3
       lint-staged: ^10.2.7
     dependencies:
@@ -16,6 +17,7 @@ importers:
       '@commitlint/cli': 16.3.0
       '@commitlint/config-conventional': 16.2.4
       eslint: 8.36.0
+      git-cz: 4.9.0
       husky: 8.0.3
       lint-staged: 10.5.4
 
@@ -1666,6 +1668,11 @@ packages:
       call-bind: 1.0.2
       get-intrinsic: 1.2.0
     dev: false
+
+  /git-cz/4.9.0:
+    resolution: {integrity: sha512-cSRL8IIOXU7UFLdbziCYqg8f8InwLwqHezkiRHNSph7oZqGv0togId1kMTfKil6gzK0VaSXeVBb4oDl0fQCHiw==}
+    hasBin: true
+    dev: true
 
   /git-raw-commits/2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
