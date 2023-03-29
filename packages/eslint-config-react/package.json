@@ -1,6 +1,6 @@
 {
   "name": "@clyan/eslint-config-react",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "react eslint configuration",
   "author": "Clyan",
   "license": "MIT",
