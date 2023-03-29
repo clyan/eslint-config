@@ -1,14 +1,17 @@
 {
   "name": "@clyan/eslint-config-vue",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.0",
   "description": "vue eslint configuration",
   "author": "Clyan",
   "license": "MIT",
   "keywords": [
-    "eslint-config", "eslint-config-vue"
+    "eslint-config",
+    "eslint-config-vue"
   ],
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@clyan/eslint-config-basic",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.0",
   "description": "Basic eslint configuration",
   "author": "Clyan <2429335889@qq.com>(https://github.com/clyan/)",
   "license": "MIT",
@@ -8,7 +8,9 @@
     "eslint-config-basic"
   ],
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },

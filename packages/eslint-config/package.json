@@ -1,6 +1,6 @@
 {
   "name": "@clyan/eslint-config",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.0",
   "description": "default eslint configuration",
   "author": "Clyan",
   "license": "MIT",
@@ -8,7 +8,9 @@
     "eslint-config"
   ],
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {},
   "dependencies": {
     "@clyan/eslint-config-basic": "workspace:*"
