@@ -8,6 +8,7 @@
     "eslint-config-basic"
   ],
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },

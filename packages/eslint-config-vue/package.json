@@ -8,7 +8,7 @@
     "eslint-config", "eslint-config-vue"
   ],
   "main": "index.js",
-  "scripts": {},
+  "files": ["index.js"],
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
