@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky install",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "changeset publish"
   },
   "dependencies": {
     "@clyan/eslint-config": "workspace:*"
