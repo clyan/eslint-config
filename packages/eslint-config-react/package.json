@@ -1,0 +1,32 @@
+{
+  "name": "@clyan/eslint-config-react",
+  "version": "1.0.0-beta.0",
+  "description": "react eslint configuration",
+  "author": "Clyan",
+  "license": "MIT",
+  "homepage": "https://github.com/clyan/eslint-config",
+  "keywords": [
+    "eslint-config",
+    "eslint-config-react"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@clyan/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "react": "^18.2.0",
+    "typescript": "^5.0.2"
+  }
+}
