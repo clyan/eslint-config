@@ -9,6 +9,7 @@
     "@clyan/eslint-config-vue": "1.0.0-beta.0"
   },
   "changesets": [
-    "fifty-bobcats-attend"
+    "fifty-bobcats-attend",
+    "weak-timers-lick"
   ]
 }
