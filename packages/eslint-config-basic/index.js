@@ -1,4 +1,9 @@
 module.exports = {
+  env: {
+    es6: true,
+    browser: true,
+    node: true,
+  },
   reportUnusedDisableDirectives: true,
   extends: [
     'standard',
