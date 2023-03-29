@@ -1,4 +1,5 @@
 module.exports = {
+  reportUnusedDisableDirectives: true,
   extends: [
     'standard',
     'plugin:import/recommended',
