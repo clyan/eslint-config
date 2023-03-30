@@ -7,8 +7,14 @@ on:
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
+permissions:
+  contents: read
+
 jobs:
   release:
+    permissions:
+      # https://github.com/ad-m/github-push-action/issues/96
+      contents: write
     name: Release
     runs-on: ubuntu-latest
     steps:
