@@ -16,24 +16,27 @@ jobs:
       # https://github.com/ad-m/github-push-action/issues/96
       contents: write
     name: Release
+    # Determine whether the owner of the warehouse is himself, in order to avoid triggering when others fork the warehouse
+    if: ${{ github.repository_owner == 'clyan' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Setup Node.js 16.x
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         id: pnpm-install
         with:
-          version: 7
+          version: ^7.0
           run_install: true
 
-      - name: Install Deps
+      - name: Setup Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: pnpm
+
+      - name: Install dependencies
         run: pnpm install
 
       - name: Create Release Pull Request or Publish to npm
