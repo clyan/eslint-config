@@ -15,6 +15,7 @@ jobs:
     permissions:
       # https://github.com/ad-m/github-push-action/issues/96
       contents: write
+      pull-requests: write
     name: Release
     # Determine whether the owner of the warehouse is himself, in order to avoid triggering when others fork the warehouse
     if: ${{ github.repository_owner == 'clyan' }}
