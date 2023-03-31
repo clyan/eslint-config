@@ -1,6 +1,6 @@
 {
   "name": "@clyan/eslint-config-ts",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0",
   "description": "ts eslint configuration",
   "author": "Clyan",
   "license": "MIT",
