@@ -1,6 +1,6 @@
 {
   "name": "@clyan/eslint-config-basic",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0",
   "description": "Basic eslint configuration",
   "author": "Clyan <2429335889@qq.com>(https://github.com/clyan/)",
   "license": "MIT",
