@@ -1,5 +1,11 @@
 # @clyan/eslint-config-react
 
+## 1.0.1
+
+### Patch Changes
+
+- [`54b04d0`](https://github.com/clyan/eslint-config/commit/54b04d0212632e399763ef097583e3a14b46a764) Thanks [@clyan](https://github.com/clyan)! - add jsx config
+
 ## 1.0.0
 
 ### Major Changes
